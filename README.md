@@ -42,7 +42,7 @@ unzip, move to Applications and export to path
 export PATH=$PATH:/Applications/SonarScanner/bin
 ```
 
-## Go to directory of a project
+## Go to directory of a project and run cmd
 ```
 sonar-scanner \
   -Dsonar.projectKey=test \
@@ -50,3 +50,5 @@ sonar-scanner \
   -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.login=sqp_f424279f7766f60470083bf039a8b31a7b995e43
 ```
+
+## Go to browser and view code smell
