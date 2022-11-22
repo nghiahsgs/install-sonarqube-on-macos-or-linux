@@ -51,4 +51,14 @@ sonar-scanner \
   -Dsonar.login=sqp_f424279f7766f60470083bf039a8b31a7b995e43
 ```
 
+* Can use this file auto_scan.bash for easy to run
+```bash
+export PATH=$PATH:/Applications/SonarScanner/bin
+sonar-scanner \
+  -Dsonar.projectKey=test \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=sqp_f424279f7766f60470083bf039a8b31a7b995e43
+
+```
 ## Go to browser and view code smell
