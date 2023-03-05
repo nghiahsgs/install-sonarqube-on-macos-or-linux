@@ -21,7 +21,7 @@ admin
 
 
 ## Step2: Create new project locally
-save the command line, the sample command
+From admin web, click new project, click step by step and get the code below in admin
 ```
 sonar-scanner \
   -Dsonar.projectKey=test \
