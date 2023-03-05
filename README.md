@@ -1,5 +1,5 @@
 # install-sonarqube-on-macos
-install sonarqube on macos
+## Step 1: install sonarqube on macos
 
 ```
 docker pull sonarqube:latest
@@ -20,7 +20,7 @@ admin
 ```
 
 
-## Create new project locally
+## Step2: Create new project locally
 save the command line, the sample command
 ```
 sonar-scanner \
@@ -31,13 +31,13 @@ sonar-scanner \
 ```
 
 
-## Install SonarScanner
+## Step3: Install SonarScanner
 ```
 https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
 click Mac Os
 ```
 
-unzip, move to Applications and export to path
+unzip, rename to `SonarScanner` and move to Applications and export to path
 ```
 export PATH=$PATH:/Applications/SonarScanner/bin
 ```
