@@ -1,5 +1,5 @@
 # install-sonarqube-on-macos
-## Step 1: install sonarqube on macos
+## Step 1: install sonarqube on macos or linux
 
 ```
 docker pull sonarqube:latest
