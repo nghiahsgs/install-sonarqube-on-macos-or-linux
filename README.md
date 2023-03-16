@@ -1,4 +1,4 @@
-# install-sonarqube-on-macos
+# install-sonarqube-on-macos-linux
 ## Step 1: install sonarqube on macos or linux
 
 ```
@@ -21,7 +21,7 @@ admin
 
 
 OR simply use docker compose: docker-composer.yaml
-```
+```yaml
 version: '3'
 
 services:
