@@ -20,6 +20,21 @@ admin
 ```
 
 
+OR simply use docker compose: docker-composer.yaml
+```
+version: '3'
+
+services:
+  sonarqube:
+    image: sonarqube:latest
+    ports:
+      - "9000:9000"
+
+```
+```
+docker compose -f docker-composer.yaml up
+```
+
 ## Step2: Create new project locally
 From admin web, click new project, click step by step and get the code below in admin
 ```
@@ -41,6 +56,8 @@ unzip, rename to `SonarScanner` and move to Applications and export to path
 ```
 export PATH=$PATH:/Applications/SonarScanner/bin
 ```
+
+For linux, download the zip file and export bin to path
 
 ## Go to directory of a project and run cmd
 ```
